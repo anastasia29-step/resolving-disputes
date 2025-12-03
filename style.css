@@ -1,43 +1,132 @@
-nav {
-  width: 100%;
-  height: 40px;
+.main { 
+  width: 100%; 
+  height: 40px; 
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 5px;
-  position: relative;
+  padding: 5px; 
+  position: relative; 
   position: fixed;
-  top: 0;
-  /* background-color: red; */
-}
-
+  top: 0; 
+  background-color: white; 
+  font-family: "Inter", sans-serif;
+ }
 .hunt {
   display: flex;
-  flex-direction: row;
-  height: 40px;
-  align-items: center;
-  width: 120px;
-}
-
-.fa-chart-simple {
-  font-size: large;
-}
-
-.divul ul {
-  display: flex;
-  list-style: none;
-  gap: 10px;
-  position: absolute;
-  left: 1300px;
-}
-.res{
-  width: 100%;
-  height: 80px;
-  margin-top: -90px;
-  text-align: center;
-}
-.res h1{
-  font-size: 150px;
-  font-family: "Familjen Grotesk", sans-serif;
-}
-/*# sourceMappingURL=style.css.map */
+  flex-direction: row; 
+  height: 40px; 
+  align-items: center; 
+  width: 120px; 
+  gap: 10px; 
+  font-size: small; 
+} 
+.hunt img{
+  width: 30px; 
+  height: 20px; 
+  object-fit: cover;
+} 
+section{ 
+  display: flex; 
+  margin-top: 120px;  
+  padding: 40px; 
+  gap: 50px; 
+  justify-content: space-between; 
+} 
+.left{ 
+  width: 400px; 
+  height: 570px; 
+  justify-content: space-between; 
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px; 
+} 
+.runner{ 
+  width: 400px; 
+  height: 40px; 
+  border: 1px solid #FF8641; 
+  display: flex; 
+  border-radius: 15px; 
+  text-align: center; 
+  justify-content: center; 
+  align-items: center; 
+  font-size: small; 
+  font-family: "Inter", sans-serif; 
+  font-weight: 400; 
+  font-size: 12px; 
+  letter-spacing: 0.5px; 
+} 
+.runner ul{ 
+  display: flex; 
+} 
+.runner ul li::marker{ 
+  color: #FF8641; 
+  font-size: large; 
+} 
+.divul ul { 
+  display: flex; 
+  list-style: none; 
+  gap: 50px; 
+  position: absolute; 
+  left: 1200px; 
+  font-size: small;
+  font-weight: 300; 
+} .cards{ 
+  display: flex; 
+  gap: 15px; 
+  justify-content: space-between; 
+} 
+.cards .card{ 
+  width: 110px; 
+  height: 210px; 
+  border: 1px solid #FF8641; 
+  border-radius: 17px; 
+  text-align: center; 
+} 
+.card h1{ 
+  font-family: "Inter", sans-serif; 
+  font-weight: 700; 
+  font-size: 50px; 
+} 
+.card h3{ 
+  font-family: "Inter", sans-serif; 
+  font-weight: 500; 
+  letter-spacing: 1px; 
+  font-size: 15px; 
+} 
+.res{ 
+  width: 100%; 
+  height: 80px; 
+  margin-top: -90px; 
+  text-align: center; 
+} 
+.res h1{ 
+  font-size: 150px; 
+  font-family: "Familjen Grotesk", sans-serif; 
+} 
+.right{ 
+  width: 600px; 
+  height: 570px; 
+  object-fit: cover;
+} 
+.right img{ 
+  width: 100%; 
+  height: 100%; 
+  object-fit: cover; 
+  object-position: 50% 50%; 
+  border-radius: 15px; 
+} 
+.button{ 
+  width: 140px; 
+  height: 40px; 
+  background-color: #FF8641; 
+  border: 1px solid black; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 20px; 
+} 
+.ertad{ 
+  display: flex; 
+  flex-direction: column; 
+  gap: 20px; 
+}/*# sourceMappingURL=style.css.map */
